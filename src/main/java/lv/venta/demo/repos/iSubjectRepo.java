@@ -1,5 +1,9 @@
 package lv.venta.demo.repos;
 
-public interface iSubjectRepo {
+import org.springframework.data.repository.CrudRepository;
+
+import lv.venta.demo.models.Subject;
+
+public interface iSubjectRepo extends CrudRepository<Subject, Integer>{
 
 }

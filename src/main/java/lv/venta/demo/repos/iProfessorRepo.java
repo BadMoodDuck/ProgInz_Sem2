@@ -1,5 +1,9 @@
 package lv.venta.demo.repos;
 
-public interface iProfessorRepo {
+import org.springframework.data.repository.CrudRepository;
+
+import lv.venta.demo.models.Professor;
+
+public interface iProfessorRepo extends CrudRepository<Professor, Integer>{
 
 }
